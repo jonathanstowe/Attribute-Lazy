@@ -49,7 +49,9 @@ module Attribute::Lazy {
                 if $attr.has_accessor {
                     my $meth-name = self.name.substr(2);
                     $package.^method_table{$meth-name}.wrap(-> $self {
-                        once $attr.set_value($self, $block($self));
+                        if not $attr.get_value($self).defined {
+                            $attr.set_value($self, $block($self));
+                        }
                         callsame;
                     });
                 }
