@@ -25,6 +25,8 @@ is TestPoodle.new.booble, "beepfoo", "get the value supplied by a method in inst
 my $a = TestPoodle.new;
 $a.something = 'bloop';
 is $a.booble, "beepbloop", "get the value later";
+$a.something = 'else';
+is $a.booble, "beepbloop", "the value is unchanged";
 
 done-testing;
 # vim: expandtab shiftwidth=4 ft=perl6
