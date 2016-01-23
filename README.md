@@ -2,6 +2,8 @@
 
 Lazy attribute initialisation for Perl 6 classes
 
+[![Build Status](https://travis-ci.org/jonathanstowe/Attribute-Lazy.svg?branch=master)](https://travis-ci.org/jonathanstowe/Attribute-Lazy)
+
 ## Synopsis
 
 ```
