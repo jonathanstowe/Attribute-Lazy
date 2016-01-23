@@ -14,6 +14,11 @@ use Attribute::Lazy;
 
 class Foo {
     has $.foo will lazy { "zub" };
+    has $.booble will lazy { $_.bungle };
+    method bungle() {
+        'beep';
+    }
+
 }
 
 =end code
@@ -28,6 +33,11 @@ to be initialised I<the first time it is accessed> by the result of the supplied
 block.  This might be useful if the value may not be used and may be expensive
 to calculate (or various other reasons that haven't been thought of.)
 
+The supplied block will have the object instance passed to it as an argument,
+which can be used to call other methods or public accessors on the object, you
+probably want to avoid calling anything that may depend on the value of the
+attribute for obvious reasons.
+
 
 =end pod
 
@@ -40,7 +50,7 @@ module Attribute::Lazy {
                 if $attr.has_accessor {
                     my $meth-name = self.name.substr(2);
                     $package.^method_table{$meth-name}.wrap(-> $self {
-                        once $attr.set_value($self, $block());
+                        once $attr.set_value($self, $block($self));
                         callsame;
                     });
                 }
