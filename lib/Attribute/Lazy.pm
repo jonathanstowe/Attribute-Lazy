@@ -38,7 +38,6 @@ which can be used to call other methods or public accessors on the object, you
 probably want to avoid calling anything that may depend on the value of the
 attribute for obvious reasons.
 
-
 =end pod
 
 module Attribute::Lazy {
