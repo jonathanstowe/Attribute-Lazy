@@ -26,6 +26,8 @@ to be initialised *the first time it is accessed* by the result of the supplied
 block.  This might be useful if the value may not be used and may be expensive
 to calculate (or various other reasons that haven't been thought of.)
 
+For convenience the block is passed the object instance as a single argument.
+
 ## Installation
 
 Assuming you have a working Rakudo Perl 6 installation you should be able to
@@ -50,5 +52,5 @@ Suggestions/patches are welcomed via github at https://github.com/jonathanstowe/
 Please see the [LICENCE](LICENCE) file in the distribution
 
 © Rakudo Contributors 2015
-© Jonathan Stowe 2016, 2017
+© Jonathan Stowe 2016, 2017, 2019
 
