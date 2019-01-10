@@ -2,17 +2,19 @@
   "name": "Attribute::Lazy",
   "source-url": "git://github.com/jonathanstowe/Attribute-Lazy.git",
   "support": {
-    "source": "git://github.com/jonathanstowe/Attribute-Lazy.git"
+    "source": "git://github.com/jonathanstowe/Attribute-Lazy.git",
+	"email": "jns+git@gellyfish.co.uk",
+    "bugtracker": "https://github.com/jonathanstowe/Attribute-Lazy/issues"
   },
-  "perl": "6.c",
+  "perl": "6.*",
   "resources": [
-    
   ],
   "build-depends": [
     
   ],
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
   "auth": "github:jonathanstowe",
+  "api": "1.0",
   "depends": [
     
   ],
@@ -28,10 +30,10 @@
   "provides": {
     "Attribute::Lazy": "lib/Attribute/Lazy.pm"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
   "description": "Trait to provide lazy initialisation of attributes",
-  "meta6": "0"
+  "meta-version": "0"
 }
