@@ -1,12 +1,12 @@
 # Attribute::Lazy 
 
-Lazy attribute initialisation for Perl 6 classes
+Lazy attribute initialisation for Raku classes
 
-[![Build Status](https://travis-ci.org/jonathanstowe/Attribute-Lazy.svg?branch=master)](https://travis-ci.org/jonathanstowe/Attribute-Lazy)
+![Build Status](https://github.com/jonathanstowe/Attribute-Lazy/workflows/CI/badge.svg)
 
 ## Synopsis
 
-```perl6
+```raku
 
 use Attribute::Lazy;
 
@@ -30,8 +30,7 @@ For convenience the block is passed the object instance as a single argument.
 
 ## Installation
 
-Assuming you have a working Rakudo Perl 6 installation you should be able to
-install this with *zef* :
+Assuming you have a working Rakudo Raku installation you should be able to install this with *zef* :
 
     # From the source directory
    
@@ -45,12 +44,12 @@ Other install mechanisms may be become available in the future.
 
 ## Support
 
-Suggestions/patches are welcomed via github at https://github.com/jonathanstowe/Attribute-Lazy
+Suggestions/patches are welcomed via github at https://github.com/jonathanstowe/Attribute-Lazy/issues
 
 ## Licence
 
 Please see the [LICENCE](LICENCE) file in the distribution
 
 © Rakudo Contributors 2015
-© Jonathan Stowe 2016, 2017, 2019
+© Jonathan Stowe 2016-2021
 

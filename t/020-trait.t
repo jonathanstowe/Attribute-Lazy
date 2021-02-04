@@ -1,4 +1,4 @@
-#!perl6
+#!raku
 
 use v6;
 
@@ -29,4 +29,4 @@ $a.something = 'else';
 is $a.booble, "beepbloop", "the value is unchanged";
 
 done-testing;
-# vim: expandtab shiftwidth=4 ft=perl6
+# vim: expandtab shiftwidth=4 ft=raku
