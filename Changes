@@ -1,3 +1,5 @@
+v0.0.6	Sun  7 Aug 09:47:35 BST 2022
+	* Upload to zef repository
 v0.0.5		Thu  4 Feb 07:45:29 GMT 2021
 	* A little light renaming
 	* Switch to GH actions
@@ -9,3 +11,4 @@ v0.0.2		Sat Jan 23 18:22:08 2016 +0000
 	* Enable the block to have acccess to the instance object
 v0.0.1		Sat Jan 23 17:07:35 2016 +0000 
 	* Initial release
+
