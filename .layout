@@ -30,7 +30,7 @@
           "children": [
             {
               "type": "file",
-              "name": "Lazy.pm"
+              "name": "Lazy.rakumod"
             }
           ],
           "name": "Attribute",

@@ -17,7 +17,7 @@
   "resources": [
   ],
   "provides": {
-    "Attribute::Lazy": "lib/Attribute/Lazy.pm"
+    "Attribute::Lazy": "lib/Attribute/Lazy.rakumod"
   },
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
   "tags": [
@@ -28,7 +28,7 @@
   "source-url": "git://github.com/jonathanstowe/Attribute-Lazy.git",
   "meta-version": "1",
   "raku": "6.*",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
